@@ -1,0 +1,13 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: chatbot-api-interfaces
+
+
+chatbot-api:
+  groupId: 28885518425541  # 知识星球群组ID，名称是chatGPT AI 问答助手，可以免费加入
+  cookie: zsxq_access_token=DA15E971-5DAF-0070-EB1F-260AC97F8264_A9E87DB1E0A7FDD5; zsxqsessionid=204e27788eea148a5c013cbb161dfb1a; abtest_env=product; sajssdk_2015_cross_new_user=1; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22812841554881412%22%2C%22first_id%22%3A%2218e4a63cea91afb-0359203cae7592-4c657b58-1638720-18e4a63ceaa7a8%22%2C%22props%22%3A%7B%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMThlNGE2M2NlYTkxYWZiLTAzNTkyMDNjYWU3NTkyLTRjNjU3YjU4LTE2Mzg3MjAtMThlNGE2M2NlYWE3YTgiLCIkaWRlbnRpdHlfbG9naW5faWQiOiI4MTI4NDE1NTQ4ODE0MTIifQ%3D%3D%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%24identity_login_id%22%2C%22value%22%3A%22812841554881412%22%7D%2C%22%24device_id%22%3A%2218e4a63cea91afb-0359203cae7592-4c657b58-1638720-18e4a63ceaa7a8%22%7D
+  topicId: 1522548815521512   # 知识星球话题ID
+  openAiKey: XXXXXXXXXXXX
